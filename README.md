@@ -1,25 +1,21 @@
 # ML-Optimization-Project
 
-In this notebook there are:
-- Digit MNIST dataset
-- Tools to visualize the samples
-- Model: fully connected neural network with two hidden layer
-- A train/validation function
-- A random search for the hyperparameters (best model selection)
-- Testing
-
-Note: for our objectives the focus is on the model and on the function of the train. The testing part is important for us only for the output graph (what we need to get). Our dataset of interest is only the one related to the train and not validation or testing datasets: our goal is to minimize the loss function not to see the generalization of the model. So, in the following code there are some parts that we should NOT implement.
-
-
+**Note:**
+  - For our objectives, the focus is primarily on the model and the training function.
+  - The testing part is important mainly for generating the output graph, which is what we need to obtain. Our dataset of interest is the training dataset, not the validation or testing datasets.
+  - Our goal is to minimize the loss function rather than to evaluate the generalization of the model. Therefore, some parts of the code related to validation and testing are not essential for our implementation.
 
 **Overview:**
-  - This project involved developing a Feed Forward Neural Network (FFNN) to classify handwritten digits from the MNIST dataset. The model was trained to recognize 10 different digits, achieving an accuracy of 98.13% on the validation set.
+  - This project involved developing a Feed Forward Neural Network (FFNN) to classify handwritten digits from the MNIST dataset.
+  - The model was trained to recognize 10 different digits, achieving an accuracy of 98.13% on the validation set.
 
 **Introduction:**
-  - Image classification is a fundamental task in computer vision with applications in various fields such as digit recognition, autonomous driving, and more. The MNIST dataset is a widely used benchmark for evaluating image classification algorithms.
+  - Image classification is a fundamental task in computer vision with applications in various fields such as digit recognition, autonomous driving, and more.
+  - The MNIST dataset is a widely used benchmark for evaluating image classification algorithms.
 
 **Problem Statement:**
-  - The objective of this project was to develop a Feed Forward Neural Network (FFNN) to classify images from the MNIST dataset. The MNIST dataset consists of 70,000 28x28 grayscale images of handwritten digits in 10 different classes. The goal was to achieve high accuracy in recognizing these digits.
+  - The objective of this project was to develop a Feed Forward Neural Network (FFNN) to classify images from the MNIST dataset.
+  - The MNIST dataset consists of 70,000 28x28 grayscale images of handwritten digits in 10 different classes. The goal was to achieve high accuracy in recognizing these digits.
 
 **Dataset:**
   - Dataset Used: MNIST
